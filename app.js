@@ -46,9 +46,15 @@ let currentItem = 0;
 // Function to load item
 
 window.addEventListener("DOMContentLoaded", function() {
-  const item = reviews[currentItem];
+  showPerson(currentItem)
+})
+
+//Function to show person
+
+function showPerson(person) {
+  const item = reviews[person];
   img.src = item.img;
   name.textContent = item.name;
   role.textContent = item.role;
   info.textContent = item.info;
-})
+}
