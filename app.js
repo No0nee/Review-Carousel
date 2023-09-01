@@ -49,7 +49,7 @@ window.addEventListener("DOMContentLoaded", function() {
   showPerson(currentItem)
 })
 
-//Function to show person
+// Function to show person
 
 function showPerson(person) {
   const item = reviews[person];
@@ -58,3 +58,13 @@ function showPerson(person) {
   role.textContent = item.role;
   info.textContent = item.info;
 }
+
+// Function for Next Button to show next person
+
+nextBtn.addEventListener("click", function() {
+  currentItem++;
+  if (currentItem > reviews.length - 1) {
+    currentItem = 0;
+  }
+  showPerson(currentItem)
+})
