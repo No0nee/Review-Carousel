@@ -13,6 +13,13 @@ const reviews = [
     img: "./person-2.png",
     info: "The main protagonist of Solo Leveling. Widely known as humanity's greatest hunter and the second Shadow Monarch."
   },
+  {
+    id: 3,
+    name: "Yu Ijin",
+    role: "Mercenary",
+    img: "./person-3.png",
+    info: "The main protagonist of the Mercenary Enrollment. A gifted young mercenary and survivor of a plane crash"
+  }
 ]
 
 // Selecting Items
