@@ -3,12 +3,14 @@ const reviews = [
     id: 1,
     name: "Goju Satoru",
     role: "Jujutsu Sorcerer",
+    img: "./person-1.png",
     info: "One of the main protagonists of the Jujutsu Kaisen series. Widely recognized as the strongest in the world."
   },
   {
     id: 2,
     name: "Sung Jin-Woo",
     role: "Hunter / Shadow Monarch",
+    img: "./person-2.png",
     info: "The main protagonist of Solo Leveling. Widely known as humanity's greatest hunter and the second Shadow Monarch."
   },
 ]
