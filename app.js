@@ -1,5 +1,12 @@
 const reviews = [
   {
+    id: 0,
+    name: "Seishiro Nagi",
+    role: "Soccer Player",
+    img: "./person-0.png",
+    info: "A contender for the Blue Lock Project and the titular protagonist of the spin-off,"
+  },
+  {
     id: 1,
     name: "Goju Satoru",
     role: "Jujutsu Sorcerer",
@@ -35,3 +42,10 @@ const nextBtn = document.querySelector(".next-btn");
 // Current Item
 
 let currentItem = 0;
+
+// Function to load item
+
+window.addEventListener("DOMContentLoaded", function() {
+  const item = reviews[currentItem];
+  img.src = item.img;
+})
